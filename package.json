@@ -1,0 +1,27 @@
+{
+  "name": "final-javascript-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/btranmer/Final-JavaScript-Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/btranmer/Final-JavaScript-Project/issues"
+  },
+  "homepage": "https://github.com/btranmer/Final-JavaScript-Project#readme",
+  "description": "",
+  "devDependencies": {
+    "chai": "^5.2.1",
+    "mocha": "^11.7.1"
+  }
+}
