@@ -1,11 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <title>WAR Card Game</title>
+  <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
-<script src="./index.js"></script>
+  <h1>WAR Card Game</h1>
+  <div id="game">
+    <div class="player" id="player1">
+      <h2>Player 1</h2>
+      <div class="card" id="card1"></div>
+      <p id="score1">Score: 0</p>
+    </div>
+    <div class="player" id="player2">
+      <h2>Player 2</h2>
+      <div class="card" id="card2"></div>
+      <p id="score2">Score: 0</p>
+    </div>
+  </div>
+  <button id="nextRound">Play Round</button>
+  <p id="status"></p>
+
+  <script type="module" src="./script.js"></script>
 </body>
 </html>

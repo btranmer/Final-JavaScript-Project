@@ -1,0 +1,32 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background: #2c3e50;
+  color: white;
+}
+
+#game {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px auto;
+}
+
+.player {
+  width: 40%;
+}
+
+.card {
+  font-size: 24px;
+  border: 2px solid white;
+  padding: 20px;
+  margin: 10px auto;
+  border-radius: 10px;
+  background: #ecf0f1;
+  color: #2c3e50;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  margin-top: 20px;
+}

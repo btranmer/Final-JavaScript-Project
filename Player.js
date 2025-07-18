@@ -1,4 +1,4 @@
-class Player {
+export default class Player {
   constructor(name, hand) {
     this.name = name;
     this.hand = hand;
@@ -10,5 +10,4 @@ class Player {
   }
 }
 
-module.exports = Player;
 

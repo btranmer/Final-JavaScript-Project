@@ -1,4 +1,4 @@
-class Card {
+export default class Card {
   constructor(suit, value, displayName) {
     this.suit = suit;
     this.value = value;
@@ -6,8 +6,6 @@ class Card {
   }
 
   toString() {
-    return `${this.displayName} of ${this.suit}`;
+    return `${this.displayName} ${this.suit}`;
   }
 }
-
-module.exports = Card;
